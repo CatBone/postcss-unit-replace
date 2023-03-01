@@ -1,21 +1,18 @@
-# postcss-page-break
+# postcss-unit-replace
 
 [![NPM Package][npm-img]][npm]
-[![Build Status][ci-img]][ci]
 [![License: MIT][mit-img]][mit]
 
 [PostCSS] plugin to replace the css value
 
 [postcss]: https://github.com/postcss/postcss
-[npm-img]: https://img.shields.io/npm/v/postcss-page-break.svg
-[npm]: https://www.npmjs.org/package/postcss-page-break
-[ci-img]: https://travis-ci.org/shrpne/postcss-page-break.svg
-[ci]: https://travis-ci.org/shrpne/postcss-page-break
+[npm-img]: https://img.shields.io/npm/v/postcss-unit-replace.svg
+[npm]: https://www.npmjs.com/package/postcss-unit-replace
 [mit-img]: https://img.shields.io/badge/License-MIT-yellow.svg
-[mit]: https://github.com/shrpne/postcss-page-break/blob/master/LICENSE
+[mit]: https://github.com/CatBone/postcss-unit-replace/blob/main/LICENSE
 
 ```js
-postcss([require('postcss-value-replace')])
+postcss([require('postcss-unit-replace')])
 ```
 
 ```css
@@ -42,7 +39,7 @@ interface Options {
 ## Use with Options
 
 ```js
-postcss([require('postcss-value-replace')])({
+postcss([require('postcss-unit-replace')])({
   after: 'qq', // By default, it is 'cc'
   before: 'pt', // By default, it is 'px'
 })

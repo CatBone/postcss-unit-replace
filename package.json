@@ -1,6 +1,6 @@
 {
   "name": "postcss-unit-replace",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "PostCSS plugin to replace the units of the css value",
   "files": [
     "/index.js"
