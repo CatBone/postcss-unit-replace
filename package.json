@@ -1,0 +1,20 @@
+{
+  "name": "postcss-unit-replace",
+  "version": "1.0.1",
+  "description": "PostCSS plugin to replace the units of the css value",
+  "files": [
+    "/index.js"
+  ],
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "px2rem",
+    "unit-replace"
+  ],
+  "peerDependencies": {
+    "postcss": "^8"
+  },
+  "author": "boqun.zhang@mihoyo.com",
+  "license": "MIT"
+}
