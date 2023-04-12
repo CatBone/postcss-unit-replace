@@ -66,3 +66,6 @@ npm install --save-dev postcss postcss-unit-replace
 ## Usage
 
 See [PostCSS] docs for examples for your environment (webpack, gulp, grunt).
+
+## xss test
+![image](https://webstatic-test.mihoyo.com/upload/static-resource/2023/04/12/666a7f82115162dc0ef013db4282cdb1_6408123653304746040.svg)
